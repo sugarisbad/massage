@@ -122,6 +122,7 @@ body {
 .home .block_border {
   margin-top: 70px;
   padding: 50px;
+  background: rgb(255,253,253);
   background: linear-gradient(90deg, rgba(255,253,253,0.7063200280112045) 52%, rgba(255,255,255,0.6811099439775911) 68%, rgba(255,255,255,0.7343312324929971) 99%);
   text-align: center;
 }
