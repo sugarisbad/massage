@@ -103,6 +103,7 @@ input[type="color"]:focus,
   outline: 0 none;
 }
 
+
 /* End Reset Css */
 
 /* Body */
@@ -161,6 +162,46 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 40px;
+}
+
+.advantages img {
+    width:100%;
+}
+
+.advantages .red {
+    font-size: 22px;
+    font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom:10px;
+    color: red;
+    text-align:center;
+}
+
+.advantages span {
+    font-weght:900;
+    font-size: 28px;
+    display:block;
+    text-align:center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.advantages span del {
+    color: #999999;
+}
+
+.advantages .sale {
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom:10px;
+}
+
+.advantages p {
+    text-align:center;
+    font-weight:600;
+}
+
+.advantages ul {
+    list-style-type: none;
 }
 
 /* End ADV */
@@ -272,6 +313,10 @@ body {
   }
 .cmp {
      margin-bottom: 0px;
+}
+
+.advantages ul {
+margin-bottom: 20px;
 }
 
 .cmp {
