@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Магазин массажных ковриков" />
+  <meta name="keywords" content="массажные коврики, Massage, коврики" />
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <title>Massage Shop - магазин массажных ковриков</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="home">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-sm-12 col-md-12">
+          <div class="block_border">
+            <img src="images/logo.png" alt="">
+            <h1>Магазин массажных ковриков</h1>
+            <button type="button" class="btn" data-toggle="modal" data-target="#ModalCenter">Заказать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div сlass="col-lg-12">
+          <h2>Наше предложение вам!</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-sm-6 col-md-6">
+          <img src="images/img-3.png" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-6 col-md-6">
+          <img src="images/img-4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="competition">
+    <div class="container">
+      <div class="section-title">
+        <h2>Почему мы вне конкуренции?</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-4 p-0">
+          <div class="cmp competition-one">
+            <img src="images/down-arrow.png" alt="">
+            <img src="images/free.png" alt="">
+            <p>Бесплатная доставка день в день</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 p-0">
+          <div class="cmp competition-two">
+            <img src="images/down-arrow.png" alt="">
+            <img src="images/like.png" alt="">
+            <p>Высшее качество Гарантия</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 p-0">
+          <div class="cmp competition-free">
+            <img src="images/down-arrow.png" alt="">
+            <img src="images/atm.png" alt="">
+            <p>Оплата курьеру при доставки</p>
+          </div>
+        </div>
+        <button type="button" class="btn" data-toggle="modal" data-target="#ModalCenter">Заказать</button>
+      </div>
+    </div>
+  </section>
+  <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="ModalLongTitle">Оставить заявку</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <form class="col-md-12 contact-form form__form feedback-form" id="callbackForm" action="#">
+                  <div class="form__fields form__hide-success">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <input id="name" name="name" class="form-inp" required="required" type="text" placeholder="Имя Фамилия">
+                      </div>
+                      <div class="col-md-12">
+                        <input id="phone" name="phone" class="form-inp" required="required" type="tel" placeholder="Телефон">
+                      </div>
+                      <div class="col-md-12">
+                        <input type="hidden" name="go" value="feedback">
+                        <input id="submit" class="site-button" type="submit" name="submitFeedback" value="Отправить">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/submit.js"></script>
+</body>
+</html>

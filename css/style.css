@@ -1,0 +1,292 @@
+/* Reset Css */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	text-decoration: none !important;
+}
+
+a:focus, button:focus{
+	border:0;
+	outline:0;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="submit"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(0, 0, 0, 0.38) !important;
+  outline: 0 none;
+}
+
+/* End Reset Css */
+
+/* Body */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* End Body */
+
+/* Home */
+.home {
+  background:url(../images/home.png) no-repeat;
+  background-size: cover;
+  min-height: 695px;
+}
+.home .block_border {
+  margin-top: 70px;
+  padding: 50px;
+ background: linear-gradient(180deg, rgba(238, 170, 163, 0.7), rgba(246, 240, 218, 0.7), rgba(225, 132, 122, 0.7));
+  text-align: center;
+}
+
+.home .block_border h1 {
+  font-size: 56px;
+  font-weight: 600;
+  color: #151317;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background: #151317;
+  color: #ffffff;
+  font-size: 24px;
+  border-radius: 0;
+  font-weight: 200;
+  padding: 13px 65px;
+}
+
+.btn:hover {
+  color: #eeaaa3;
+}
+
+/* End Home */
+
+/* ADV */
+
+.advantages {
+  padding: 50px 0;
+  color: #1d1d1d;
+}
+
+.advantages h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+/* End ADV */
+
+/* Contact Form */
+.competition {
+  margin-bottom:50px;
+}
+.section-title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.competition p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.competition img {
+  display: block;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.cmp  {
+  padding: 0px 80px 0px 80px;
+  min-height: 480px;
+  margin-bottom: 50px;
+}
+.competition-one {
+  background: #dce5f0;
+}
+.competition-two {
+  background: #f1f5c6;
+}
+.competition-free {
+  background: #ddbbf8;
+}
+
+.form-inp {
+    width: 100%;
+    height: 45px;
+    border: 0;
+    color: #000;
+    border-bottom: solid 1px #000;
+    font-size: 13px;
+    background: transparent;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.site-button {
+    padding: 10px 50px;
+    font-size: 12px;
+    background: none;
+    border: 2px solid;
+    border-radius: 0px;
+}
+
+.site-button {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+.site-button:hover {
+    background: #151317;
+    color: #eeaaa3;
+    transition: all ease 0.3s;
+}
+
+
+.modal-content {
+    background: rgba(246, 240, 218, 1);
+}
+
+/* End Contact Form */
+
+
+/* Media */
+
+@media screen and (max-width: 1199px) {
+
+  .home {
+    min-height: 650px;
+    background-position: bottom;
+}
+.advantages img {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 1023px) {
+  .cmp {
+      padding: 0px 30px 0px 30px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .home .block_border h1 {
+      font-size: 40px;
+      margin-bottom: 50px;
+  }
+.cmp {
+     margin-bottom: 0px;
+}
+
+.cmp {
+    padding: 0px 80px 0px 80px;
+}
+.advantages h2 {
+    font-size: 20px;
+}
+.section-title h2 {
+    font-size: 20px;
+}
+
+.competition .btn {
+  margin-top: 30px;
+}
+
+
+}
