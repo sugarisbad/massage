@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -11,7 +11,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+<!-- Facebook Pixel Code -->
+<script>
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '562767121052084');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=562767121052084&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
+
 <body>
   <section class="home">
     <div class="container">
@@ -34,10 +53,24 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-sm-6 col-md-6">
+        <div class="col-lg-4 col-sm-4 col-md-4">
           <img src="images/img-3.png" alt="">
         </div>
-        <div class="col-lg-6 col-sm-6 col-md-6">
+        <div class="col-lg-4 col-sm-4 col-md-4">
+          <h3 class="red">Распродажа</h3>
+          <span><del>4900 руб.</del> 3700 руб.</span>
+          <p class="sale">акция действует до 25.06.2020</p>
+          <p>Микро-компьютерный массажный коврик поможет вам не только испытать приятные ощущения от массажа, но и улучшить ваше самочувствие благодаря повышению циркуляции крови в организме</p>
+          <p class="text-left">Область воздействия:</p>
+          <ul>
+              <li>- Бедра</li>
+              <li>- Поясница</li>
+              <li>- Спина</li>
+              <li>- Шея</li>
+              <li>- Ноги</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-md-4">
           <img src="images/img-4.png" alt="">
         </div>
       </div>
@@ -67,7 +100,7 @@
           <div class="cmp competition-free">
             <img src="images/down-arrow.png" alt="">
             <img src="images/atm.png" alt="">
-            <p>Оплата курьеру при доставки</p>
+            <p>Оплата курьеру при доставке</p>
           </div>
         </div>
         <button type="button" class="btn" data-toggle="modal" data-target="#ModalCenter">Заказать</button>
@@ -98,7 +131,7 @@
                       </div>
                       <div class="col-md-12">
                         <input type="hidden" name="go" value="feedback">
-                        <input id="submit" class="site-button" type="submit" name="submitFeedback" value="Отправить">
+                        <input id="submit"  onclick="ym(64642105,'reachGoal','zaivka'); return true;" class="site-button" type="submit" name="submitFeedback" value="Отправить">
                       </div>
                     </div>
                   </div>
@@ -114,5 +147,6 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="js/submit.js"></script>
+  <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(64642105, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/64642105" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </body>
 </html>
